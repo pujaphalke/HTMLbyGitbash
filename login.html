@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+   <center> <h1> login Form</h1></center>
+    <form>
+        <table align="center">
+            <tr>
+                <th>Username</th>
+            </tr>
+            <tr>
+                <td>
+                <label for="mail">Email Id <span>*</span>:-</label>
+                <input type="email" id="mail" name="emailId" placeholder="abc@gmail.com" required> 
+                <br><br>
+                <label for="mobno">Mobile No:-</label>
+                <input type="tel" name="mobile" id="mobno">
+               <br><br>
+                </td>
+             </tr>
+             <tr><th>Password</th></tr>
+             <tr>
+             <td>
+               <label for="pass">Password <span>*</span>:-</label>
+               <input type="password" name="password" id="pass" required>
+               <br><br>
+             </td>
+            </tr>
+            <tr>
+              <td> <input type="submit" value="login"></td>
+           </tr>
+           <tr><td><input type="checkbox" value="checked"> Remember me.</td></tr>
+          <tr>
+            <td>Not Registered? <a href="Registration.html" target="_blank"> Create an Account</a></td>
+        </tr>
+
+        </table>
+    </form>
+</body>
+</html>
